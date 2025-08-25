@@ -1,6 +1,8 @@
 # Hi, I'm Nick 👋
 
-I build things with JavaScript, chase perfect sound through vinyl grooves, capture imperfect moments through my lens, and share my workspace with the world's best four-legged code reviewer 🐶
+[![nicksp's GitHub stats](https://github-readme-stats.vercel.app/api?username=nicksp&show_icons=true)](https://github.com/nicksp)
+
+I build maintainable and testable things with JavaScript, chase perfect sound through vinyl grooves, capture imperfect moments through my lens, and share my workspace with the world's best four-legged code reviewer 🐶
 
 Read more about me on [my site](https://plekhanov.me/).
 
@@ -12,3 +14,13 @@ Read more about me on [my site](https://plekhanov.me/).
 ---
 
 I'm always open to interesting conversations and collaboration.
+
+## Visual Studio Code extensions
+
+- [Reveal on GitHub](https://marketplace.visualstudio.com/items?itemName=nicksp.reveal-on-github) — open the current project or file on GitHub
+- [Notelets](https://marketplace.visualstudio.com/items?itemName=nicksp.notelets) — add sticky notes to any file in your workspace
+
+## Me elsewhere
+
+- [My blog](https://plekhanov.me/blog/)
+- [Bluesky](https://bsky.app/profile/plekhanov.me)
