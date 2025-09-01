@@ -19,6 +19,7 @@ I'm always open to interesting conversations and collaboration.
 
 - [Reveal on GitHub](https://marketplace.visualstudio.com/items?itemName=nicksp.reveal-on-github) — open the current project or file on GitHub
 - [Notelets](https://marketplace.visualstudio.com/items?itemName=nicksp.notelets) — add sticky notes to any file in your workspace
+- [Tidy Space](https://marketplace.visualstudio.com/items?itemName=nicksp.tidy-space) — keep your workspace clutter-free: only one sidebar at a time
 
 ## Me elsewhere
 
