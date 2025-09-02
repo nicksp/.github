@@ -7,7 +7,7 @@ I build maintainable and testable things with JavaScript, chase perfect sound th
 Read more about me on [my site](https://plekhanov.me/).
 
 - 🔭 I’m currently working on serverless apps and Next.js
-- 🌱 I’m currently learning AI and agentic coding
+- 🌱 I’m currently learning Go, AI and agentic coding
 - 💬 Ask me about anything
 - 😄 Pronouns: He/Him
 
