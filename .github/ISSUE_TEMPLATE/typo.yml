@@ -1,0 +1,14 @@
+name: 👀 Typo / grammar fix
+description: Feel free to go ahead and send a PR. Thank you!
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If the typo / grammar issue is trivial and straightforward, you can help by **directly sending a quick pull request**!
+        If you spot multiple of them, I suggest combining them into a single PR.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional information
+      placeholder: Anything else that might help us understand the issue?
