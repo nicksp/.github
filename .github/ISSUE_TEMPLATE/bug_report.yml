@@ -1,0 +1,73 @@
+name: 🪲 Bug report
+description: Report a reproducible issue
+labels:
+  - bug
+  - needs triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this bug! Please fill out the sections below to help us understand and fix the issue.
+
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Preflight checklist
+      description: Please confirm before submitting
+      options:
+        - label: I have searched existing issues and this hasn't been reported yet
+          required: true
+        - label: This is a single bug report (please file separate reports for different bugs)
+          required: true
+        - label: I have read the [Contributing Guide](https://github.com/nicksp/.github/blob/main/CONTRIBUTING.md)
+          required: true
+        - label: The provided bug reproduction is a [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example)
+          required: true
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is
+      placeholder: |
+        Describe what's happening that shouldn't be.
+
+        Describe the expected behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: |
+        Please provide clear, numbered steps that anyone can follow to reproduce the issue.
+        **Important**: Include any necessary code, file contents, or context needed to reproduce the bug.
+        If the issue involves specific files or code, please create a minimal example.
+      placeholder: Explain the bug and provide a code snippet that can reproduce it
+    validations:
+      required: true
+
+  - type: textarea
+    id: env-info
+    attributes:
+      label: Environment
+      description: Run `npx envinfo --system --binaries --browsers` and paste the output
+      render: Shell
+      placeholder: System, Binaries, Browsers
+    validations:
+      required: true
+
+  - type: dropdown
+    id: package-manager
+    attributes:
+      label: Package manager
+      description: Which package manager were you using?
+      options:
+        - npm
+        - yarn
+        - pnpm
+        - bun
+        - n/a
+    validations:
+      required: true
