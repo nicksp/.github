@@ -1,0 +1,7 @@
+contact_links:
+  - name: 🙌 Contribution guide
+    url: https://github.com/nicksp/.github/blob/main/CONTRIBUTING.md
+    about: Please read through before making contributions.
+  - name: ⁉️ How to make a reproduction?
+    url: https://stackoverflow.com/help/minimal-reproducible-example
+    about: Reproduction is very important for maintainer to help on your issues!
