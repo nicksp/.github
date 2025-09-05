@@ -1,0 +1,40 @@
+name: 📚 Documentation issue
+description: Report missing, unclear, or incorrect documentation
+labels:
+  - docs
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for submitting a documentation request! Please let us know what's missing or confusing.
+
+  - type: dropdown
+    id: doc_type
+    attributes:
+      label: Issue type
+      description: What kind of documentation issue is this?
+      multiple: true
+      options:
+        - Missing documentation
+        - Incorrect/outdated documentation
+        - Unclear/confusing documentation
+        - Typo or formatting issue
+        - Missing or not working code examples
+        - Broken links
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is the issue?
+      description: Explain what's incorrect, unclear, or missing
+    validations:
+      required: true
+
+  - type: textarea
+    id: location
+    attributes:
+      label: Where did you find it?
+      description: Please provide the URL(s) if possible
